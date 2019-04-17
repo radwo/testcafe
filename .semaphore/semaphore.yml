@@ -14,5 +14,4 @@ blocks:
           - nvm install 10.15.0
           - npm install -g testcafe
           - export DISPLAY=:99.0
-          - sh -e /etc/init.d/xvfb start
           - testcafe chrome test1.js
